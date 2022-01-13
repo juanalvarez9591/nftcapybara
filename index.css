@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    padding: 2rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    align-items: center;
+}
+
+h1 {
+    position: fixed;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    top: 45%;
+    font-size: 2rem;
+    word-wrap: break-word;
+    font-family: 'Trocchi', serif;
+    color: white;
+    color: #FFFFFF;
+    text-shadow: 4px 3px 0px #7A7A7A;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
